@@ -18,3 +18,13 @@ It contains warning sounds for the following events;
 - It is time for you to move. (Bike horn)
 - You got a mark from a horseman you're not supposed to be at. (Electric shock)
 - You got more marks than the maximum amount you set. (Sonar)
+
+## Images
+
+![On encounter start](png/00_encounter_start.png)
+
+![First move](png/01_first_move.png)
+
+![At a horseman](png/02_currently_at.png)
+
+![Subsequent move](png/03_move_to.png)
