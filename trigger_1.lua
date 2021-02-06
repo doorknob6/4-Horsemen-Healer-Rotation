@@ -32,12 +32,12 @@ function(event, timestamp, subEvent, hideCaster, sourceGUID, sourceName, sourceF
 						aura_env.currentHorsemanNumber=4
 					end
 				end
-				
+
 				aura_env.currentHorseman=aura_env.horsemenNames[aura_env.currentHorsemanNumber]
-				
+
 				--move message
                 aura_env.message="MOVE to "
-				
+
             else
 				--location message
                 aura_env.message="Currently at "
@@ -50,7 +50,7 @@ function(event, timestamp, subEvent, hideCaster, sourceGUID, sourceName, sourceF
             if aura_env.maxMarkStack>=aura_env.config.optStackAlarm then
                 aura_env.message=aura_env.maxMarkStack.." STACKS "..aura_env.message
             end
-			
+
 			--check if you got the correct mark
 			if (spellName~=aura_env.markNames[aura_env.currentHorsemanNumber]) then
 				aura_env.wrongMark=true
@@ -90,8 +90,8 @@ function(event, timestamp, subEvent, hideCaster, sourceGUID, sourceName, sourceF
         aura_env.markCount=0
         aura_env.message=""
 		aura_env.currentHorseman=""
-		aura_env.currentHorsemanID=0
-		
+		aura_env.currentHorsemanNumber=0
+
         return true
     end
 
