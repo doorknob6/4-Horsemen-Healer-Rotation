@@ -68,14 +68,8 @@ function(event, timestamp, subEvent, hideCaster, sourceGUID, sourceName, sourceF
         --reset
         aura_env.markCount=0
 		--set the starting horseman as the current one
-        aura_env.currentHorseman=aura_env.config.optStartHorseman
-		--set starting horseman number
-		for i, name in pairs(aura_env.horsemenNames) do
-			if (name==aura_env.currentHorseman) then
-				aura_env.currentHorsemanNumber=i
-				break
-			end
-		end
+		aura_env.currentHorsemanNumber=aura_env.config.optStartHorseman
+        aura_env.currentHorseman=aura_env.horsemenNames[aura_env.currentHorsemanNumber]
 		--set the starting message
         aura_env.message="Start at "
         --set progress bar times
