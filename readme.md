@@ -1,10 +1,10 @@
-# 4 Horsemen Mark Counter (Doorknob's Edit)
+# 4 Horsemen Healer Rotation
 
-Edit to a [mark counter WeakAura](https://wago.io/amLxHdF6g) adding the healer rotation based on [this strategy](https://docs.google.com/document/d/1ftQI3Tdwto-z-oPXr7WEsvlqIuGdbOKkm67IgB_h-bE/edit#heading=h.k09bjt70nku7).
+Edit to this [mark counter WeakAura](https://wago.io/amLxHdF6g) adding the healer rotation based on [this strategy](https://docs.google.com/document/d/1ftQI3Tdwto-z-oPXr7WEsvlqIuGdbOKkm67IgB_h-bE/edit#heading=h.k09bjt70nku7).
 
 ## Features
 
-The WeakAura will show which Horseman you are supposed to be moving to and which one you're currently supposed to be at.
+The WeakAura shows which Horseman you are supposed to be moving to and which one you're currently supposed to be at.
 
 Allows the following input;
 - The starting horseman
@@ -17,7 +17,7 @@ It contains warning sounds for the following events;
 
 - It is time for you to move. (Bike horn)
 - You got a mark from a horseman you're not supposed to be at. (Electric shock)
-- You got more marks than the maximum amount you set. (Sonar)
+- The last received mark stack is at the maximum set in the options. (Sonar)
 
 ## Images
 
