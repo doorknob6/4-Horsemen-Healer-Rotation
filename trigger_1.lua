@@ -51,7 +51,8 @@ function(event, timestamp, subEvent, hideCaster, sourceGUID, sourceName, sourceF
                 aura_env.message=aura_env.maxMarkStack.." STACKS "..aura_env.message
             end
 
-			--check if you got the correct mark
+            --check if you got the correct mark
+            aura_env.wrongMark=false
 			if (spellName~=aura_env.markNames[aura_env.currentHorsemanNumber]) then
 				aura_env.wrongMark=true
 			end
